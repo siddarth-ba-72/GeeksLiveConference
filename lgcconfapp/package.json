@@ -1,5 +1,6 @@
 {
   "name": "lgcconfapp",
+  "homepage": "https://Siddarth-B-A.github.io/GeeksLiveConference",
   "version": "1.0.0",
   "private": true,
   "main": ".electron/index.js",
@@ -26,7 +27,10 @@
     "icons:android": "react-native set-icon --path ./build/icon.png",
     "icons:ios": "react-native set-icon --path ./build/icon.png",
     "package:mac": "npm run mac:build && electron-builder --publish=always",
-    "release": "electron-builder --mac --windows --linux --publish always --config ./electron-builder.js "
+    "release": "electron-builder --mac --windows --linux --publish always --config ./electron-builder.js ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "npm run build"
   },
   "publish": [
     {
