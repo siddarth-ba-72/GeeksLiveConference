@@ -2,7 +2,7 @@
 
 ## VIEW
 
-<img src="./Frontpage.png" height="10%" width="30%">
+<img src="./Frontpage.png" height="100%" width="100%">
 
 ## DEMO
 
