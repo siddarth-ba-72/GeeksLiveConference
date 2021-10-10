@@ -6,4 +6,4 @@
 
 ## DEMO
 
-[Live Demo](https://pensive-mestorf-caaeca.netlify.app/create)
+[Live Demo](https://pensive-mestorf-caaeca.netlify.app)
